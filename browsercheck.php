@@ -1,7 +1,3 @@
-<html>
-  <title>Browser check</title>
-  <body>
-
 <?php
 echo $_SERVER['PHP_SELF'];//gives the /file.php
 echo "<br>";
@@ -15,5 +11,3 @@ echo $_SERVER['SCRIPT_NAME'];
 echo "<br>";
 echo $_SERVER['REMOTE_ADDR'];
 ?>
-  </body>
-</html>
